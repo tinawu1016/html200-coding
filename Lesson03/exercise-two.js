@@ -1,3 +1,5 @@
-let sentence = ['Bacon', 'and', 'eggs', 'are', 'delicious!'];
+let sentence = 'Bacon and eggs are delicious';
 
-console.log(sentence[2]);
+let sentenceArr = sentence.split(' ');
+
+console.log(sentenceArr[2]);
